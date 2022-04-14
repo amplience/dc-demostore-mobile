@@ -1,0 +1,10 @@
+{
+  "cce0120d7773e4b44cb96c185476b1131201ba06cab8e656fd469fbacd8aa741": {
+    "name": "Category",
+    "source": "query Category {\n  category(slug: \"women\", locale: \"de\") {\n    __typename\n    name\n    products {\n      __typename\n      name\n    }\n  }\n}"
+  },
+  "c26a77eda837149df0425da8f8ece27d9cc361b3ca88a5a706fa8a43f7793ce4": {
+    "name": "Product",
+    "source": "query Product($id: String, $slug: String, $sku: String, $locale: String, $currency: String) {\n  product(id: $id, slug: $slug, sku: $sku, locale: $locale, currency: $currency) {\n    __typename\n    name\n    variants {\n      __typename\n      prices {\n        __typename\n        list\n      }\n    }\n  }\n}"
+  }
+}

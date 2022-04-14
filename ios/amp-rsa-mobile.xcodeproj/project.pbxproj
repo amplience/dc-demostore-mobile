@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5562517F26A21CA500BD0CFF /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562517E26A21CA500BD0CFF /* HomepageView.swift */; };
+		5590F3C0264ECF9100EF4F62 /* amp_rsa_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590F3BF264ECF9100EF4F62 /* amp_rsa_mobileApp.swift */; };
+		5590F3C4264ECF9200EF4F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5590F3C3264ECF9200EF4F62 /* Assets.xcassets */; };
+		5590F3C7264ECF9200EF4F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5590F3C6264ECF9200EF4F62 /* Preview Assets.xcassets */; };
+		55B5CAA4264ED5290028E2C6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CAA2264ED5290028E2C6 /* API.swift */; };
+		55B5CAA8264ED7000028E2C6 /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CAA7264ED7000028E2C6 /* ApolloClient.swift */; };
+		55B5CAAA264EF83C0028E2C6 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CAA9264EF83C0028E2C6 /* ProductDetailView.swift */; };
+		55CF7730267279CF00F14AAB /* SimpleBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF772F267279CF00F14AAB /* SimpleBannerView.swift */; };
+		55CF77332672918700F14AAB /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 55CF77322672918700F14AAB /* URLImage */; };
+		55D0A22A267FB8650010F75D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D0A229267FB8650010F75D /* HeaderView.swift */; };
+		55EF0656268BBCE3006329B7 /* CMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF0655268BBCE3006329B7 /* CMS.swift */; };
+		55EF0658268BBF25006329B7 /* Codables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF0657268BBF25006329B7 /* Codables.swift */; };
+		55FA46FB268137FD00FD133C /* AmplienceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA46FA268137FD00FD133C /* AmplienceTypes.swift */; };
+		69ADFE3EE5D8807C38D2F8F5 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = A6C933622C7B95A0A8C6DB89 /* Apollo */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5562517E26A21CA500BD0CFF /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		5590F3BC264ECF9100EF4F62 /* amp-rsa-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amp-rsa-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5590F3BF264ECF9100EF4F62 /* amp_rsa_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amp_rsa_mobileApp.swift; sourceTree = "<group>"; };
+		5590F3C3264ECF9200EF4F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5590F3C6264ECF9200EF4F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5590F3C8264ECF9200EF4F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B5CAA2264ED5290028E2C6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		55B5CAA7264ED7000028E2C6 /* ApolloClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClient.swift; sourceTree = "<group>"; };
+		55B5CAA9264EF83C0028E2C6 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		55CF772F267279CF00F14AAB /* SimpleBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBannerView.swift; sourceTree = "<group>"; };
+		55D0A229267FB8650010F75D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		55EF0655268BBCE3006329B7 /* CMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMS.swift; sourceTree = "<group>"; };
+		55EF0657268BBF25006329B7 /* Codables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codables.swift; sourceTree = "<group>"; };
+		55FA46FA268137FD00FD133C /* AmplienceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplienceTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5590F3B9264ECF9100EF4F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF77332672918700F14AAB /* URLImage in Frameworks */,
+				69ADFE3EE5D8807C38D2F8F5 /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5590F3B3264ECF9100EF4F62 = {
+			isa = PBXGroup;
+			children = (
+				5590F3BE264ECF9100EF4F62 /* amp-rsa-mobile */,
+				5590F3BD264ECF9100EF4F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5590F3BD264ECF9100EF4F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5590F3BC264ECF9100EF4F62 /* amp-rsa-mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5590F3BE264ECF9100EF4F62 /* amp-rsa-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				55EF0654268BBCD6006329B7 /* Services */,
+				55FA46F9268137E800FD133C /* Domain */,
+				55CF772E2672797B00F14AAB /* Views */,
+				55B5CAA6264ED6EE0028E2C6 /* Controllers */,
+				55B5CAA2264ED5290028E2C6 /* API.swift */,
+				5590F3BF264ECF9100EF4F62 /* amp_rsa_mobileApp.swift */,
+				5590F3C3264ECF9200EF4F62 /* Assets.xcassets */,
+				5590F3C8264ECF9200EF4F62 /* Info.plist */,
+				5590F3C5264ECF9200EF4F62 /* Preview Content */,
+			);
+			path = "amp-rsa-mobile";
+			sourceTree = "<group>";
+		};
+		5590F3C5264ECF9200EF4F62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5590F3C6264ECF9200EF4F62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55B5CAA6264ED6EE0028E2C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55B5CAA7264ED7000028E2C6 /* ApolloClient.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55CF772E2672797B00F14AAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55B5CAA9264EF83C0028E2C6 /* ProductDetailView.swift */,
+				55CF772F267279CF00F14AAB /* SimpleBannerView.swift */,
+				55D0A229267FB8650010F75D /* HeaderView.swift */,
+				5562517E26A21CA500BD0CFF /* HomepageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55EF0654268BBCD6006329B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55EF0655268BBCE3006329B7 /* CMS.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55FA46F9268137E800FD133C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				55FA46FA268137FD00FD133C /* AmplienceTypes.swift */,
+				55EF0657268BBF25006329B7 /* Codables.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5590F3BB264ECF9100EF4F62 /* amp-rsa-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5590F3CB264ECF9200EF4F62 /* Build configuration list for PBXNativeTarget "amp-rsa-mobile" */;
+			buildPhases = (
+				5590F3B8264ECF9100EF4F62 /* Sources */,
+				5590F3B9264ECF9100EF4F62 /* Frameworks */,
+				5590F3BA264ECF9100EF4F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amp-rsa-mobile";
+			packageProductDependencies = (
+				A6C933622C7B95A0A8C6DB89 /* Apollo */,
+				55CF77322672918700F14AAB /* URLImage */,
+			);
+			productName = "amp-rsa-mobile";
+			productReference = 5590F3BC264ECF9100EF4F62 /* amp-rsa-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5590F3B4264ECF9100EF4F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5590F3BB264ECF9100EF4F62 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 5590F3B7264ECF9100EF4F62 /* Build configuration list for PBXProject "amp-rsa-mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5590F3B3264ECF9100EF4F62;
+			packageReferences = (
+				8FE53A566864D1DF1DEA3DA6 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				55CF77312672918700F14AAB /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 5590F3BD264ECF9100EF4F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5590F3BB264ECF9100EF4F62 /* amp-rsa-mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5590F3BA264ECF9100EF4F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5590F3C7264ECF9200EF4F62 /* Preview Assets.xcassets in Resources */,
+				5590F3C4264ECF9200EF4F62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5590F3B8264ECF9100EF4F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B5CAAA264EF83C0028E2C6 /* ProductDetailView.swift in Sources */,
+				55EF0658268BBF25006329B7 /* Codables.swift in Sources */,
+				5562517F26A21CA500BD0CFF /* HomepageView.swift in Sources */,
+				55FA46FB268137FD00FD133C /* AmplienceTypes.swift in Sources */,
+				55CF7730267279CF00F14AAB /* SimpleBannerView.swift in Sources */,
+				55B5CAA4264ED5290028E2C6 /* API.swift in Sources */,
+				55EF0656268BBCE3006329B7 /* CMS.swift in Sources */,
+				5590F3C0264ECF9100EF4F62 /* amp_rsa_mobileApp.swift in Sources */,
+				55B5CAA8264ED7000028E2C6 /* ApolloClient.swift in Sources */,
+				55D0A22A267FB8650010F75D /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5590F3C9264ECF9200EF4F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5590F3CA264ECF9200EF4F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5590F3CC264ECF9200EF4F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amp-rsa-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = A8LBSESJNJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amp-rsa-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mousetraptech.amp-rsa-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "GRAPHAELLO_AMP_RSA_MOBILE_TARGET $(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5590F3CD264ECF9200EF4F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amp-rsa-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = A8LBSESJNJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amp-rsa-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mousetraptech.amp-rsa-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "GRAPHAELLO_AMP_RSA_MOBILE_TARGET $(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5590F3B7264ECF9100EF4F62 /* Build configuration list for PBXProject "amp-rsa-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5590F3C9264ECF9200EF4F62 /* Debug */,
+				5590F3CA264ECF9200EF4F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5590F3CB264ECF9200EF4F62 /* Build configuration list for PBXNativeTarget "amp-rsa-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5590F3CC264ECF9200EF4F62 /* Debug */,
+				5590F3CD264ECF9200EF4F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55CF77312672918700F14AAB /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		8FE53A566864D1DF1DEA3DA6 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.40.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55CF77322672918700F14AAB /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55CF77312672918700F14AAB /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		A6C933622C7B95A0A8C6DB89 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FE53A566864D1DF1DEA3DA6 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5590F3B4264ECF9100EF4F62 /* Project object */;
+}
